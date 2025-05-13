@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.container {
+  text-align: center;
+}
+
+#box {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  background-color: #3498db;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+  border-radius: 10px;
+ margin: 20px auto 0;
+}
+
+.animate {
+  transform: rotate(360deg) scale(1.2);
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #2ecc71;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+.main{
+    width: 100%;
+    background-image: url("https://wallpapers.com/images/hd/colors-background-j5pihzxs5guc5c65.jpg");
+    background-position: center;                                                                                                                                                         
+    background-size: cover;
+    height: 100vh;
+    position: center; 
+    font-family: sans-serif;
+    background-attachment: fixed;}
+    .search-box{
+        float: right;
+        width: 240px;
+        background-color: rgb(196, 196, 218);
+        }
+        .action-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    animation: fadeIn 1s ease-in-out;
+}
